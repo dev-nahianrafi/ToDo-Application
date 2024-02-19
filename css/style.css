@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul,ol,li{
+    list-style-type: none;
+}
+body{
+    background: #F9F9F9;
+}
+.container{
+    width: 900px;
+    margin: 0 auto;
+}
+.main_div{
+    margin-top: 80px;
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+.left_div{
+    width: 35%;
+    background-color: #AAA1C8;
+    padding: 50px;
+}
+.left_div h2{
+    font-family: "Oswald", sans-serif;
+    font-size: 52px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.Right_div{
+    width: 60%;
+    background-color: #FFFFFC;
+    padding: 20px 30px;
+}
+.menubar{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #222;
+}
+.hgf{
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+}
+.iconn{
+    font-size: 20px;
+    padding: 5px;
+    border: 4px solid #222;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.iconnn{
+    font-size: 20px;
+    padding: 5px;
+    border: 4px solid red;
+    color: red;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.inputs{
+    display: none;
+}
+.inputboxx {
+	margin-top: 30px;
+	padding: 0px 15px;
+	height: 40px;
+	width: 290px;
+    font-size: 18px;
+}
+.submit{
+    padding: 9px 28px;
+    background-color: #AAA1C8;
+    border: 2px solid transparent;
+    font-size: 16px;
+    cursor: pointer;
+}
+.eror{
+    margin-top: 8px;
+    margin-bottom: 8px;
+    color: red;
+}
+.main{
+    margin-top: 50px;
+}
+.main li{
+    padding: 10px 20px 10px 10px;
+    width: auto;
+    font-size: 18px;
+    background-color: #AAA1C8;
+    margin: 15px 0;
+    -webkit-box-shadow: 7px 5px 11px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 7px 5px 11px -5px rgba(0,0,0,0.75);
+    box-shadow: 7px 5px 11px -5px rgba(0,0,0,0.75);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.icontrebtn{
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+}
+.editpen{
+    text-align: end;
+    cursor: pointer;
+    font-size: 15px;
+}
+.deletebtn{
+    text-align: end;
+    cursor: pointer;
+    font-size: 15px;
+}
